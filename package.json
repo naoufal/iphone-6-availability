@@ -1,0 +1,36 @@
+{
+  "name": "iphone-6-availability",
+  "version": "0.1.0",
+  "description": "I'm tired of checking availability",
+  "main": "app.js",
+  "scripts": {
+    "start": "./node_modules/.bin/forever start app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/naoufal/iphone-6-availability.git"
+  },
+  "keywords": [
+    "apple",
+    "iphone6",
+    "iphone",
+    "6",
+    "availability",
+    "stores",
+    "supply"
+  ],
+  "author": "Naoufal Kadhom",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naoufal/iphone-6-availability/issues"
+  },
+  "homepage": "https://github.com/naoufal/iphone-6-availability",
+  "dependencies": {
+    "cron": "^1.0.5",
+    "forever": "^0.11.1",
+    "lodash": "^2.4.1",
+    "nodemailer": "^1.3.0",
+    "superagent": "^0.19.1"
+  }
+}
