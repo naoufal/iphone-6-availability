@@ -7,6 +7,9 @@
     "start": "./node_modules/.bin/forever start app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "engines": {
+    "node": "0.10.28"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/naoufal/iphone-6-availability.git"
