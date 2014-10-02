@@ -4,7 +4,7 @@
   "description": "I'm tired of checking availability",
   "main": "app.js",
   "scripts": {
-    "start": "./node_modules/.bin/forever start app.js",
+    "start": "./node_modules/.bin/forever app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
